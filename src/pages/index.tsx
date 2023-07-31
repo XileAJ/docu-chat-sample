@@ -52,9 +52,9 @@ const HomePage: React.FC<Props> = () => {
                   <Image className={styles.SuccessIcon} src='/success.png' alt="Success" width={24} height={24} />
                   <p className={styles.p7}>VERSATILE DOCUMENT SUPPORT</p>
                 </div>
-                <p className={styles.p8}>DocuChat can navigate through PDFs,<br></br> CSVs, Excel files, images, and more.</p>
+                <p className={styles.p8}>DocuChat can navigate through PDFs, &lsquo;CSVs, Excel files, images, and more.</p>
                 <div className={styles.LearnMoreArrowText}>
-                  <LearnMoreButton onClick={handleClick}>Learn more →</LearnMoreButton>
+                  <LearnMoreButton onClick={handleClick}>Learn more &rarr;</LearnMoreButton>
                 </div>
               </div>
               <div className={styles.article2}>
@@ -62,9 +62,9 @@ const HomePage: React.FC<Props> = () => {
                   <Image className={styles.SuccessIcon} src='/success.png' alt="Success" width={24} height={24} />
                   <p className={styles.p7}>PRECISE ANSWERS</p>
                 </div>
-                <p className={styles.p8}>Ask a question and DocuChat scans your<br></br> document, providing precise answers.</p>
+                <p className={styles.p8}>Ask a question and DocuChat scans your &lsquo;document, providing precise answers.</p>
                 <div className={styles.LearnMoreArrowText}>
-                  <LearnMoreButton onClick={handleClick}>Learn more →</LearnMoreButton>
+                  <LearnMoreButton onClick={handleClick}>Learn more &rarr;</LearnMoreButton>
                 </div>
               </div>
               <div className={styles.article3}>
@@ -72,9 +72,9 @@ const HomePage: React.FC<Props> = () => {
                   <Image className={styles.SuccessIcon} src='/success.png' alt="Success" width={24} height={24} />
                   <p className={styles.p7}>USER-FRIENDLY INTERFACE</p>
                 </div>
-                <p className={styles.p8}>Interact with your documents via a user-<br></br>friendly chat interface.</p>
+                <p className={styles.p8}>Interact with your documents via a user-friendly chat interface.</p>
                 <div className={styles.LearnMoreArrowText}>
-                  <LearnMoreButton onClick={handleClick}>Learn more →</LearnMoreButton>
+                  <LearnMoreButton onClick={handleClick}>Learn more &rarr;</LearnMoreButton>
                 </div>
               </div>
             </div>
@@ -86,7 +86,7 @@ const HomePage: React.FC<Props> = () => {
           <div className={styles.featurescontext}>
             <div className={styles.leftcontext}>
               <h1 className={styles.titleh1}>Time Saving</h1>
-              <p className={styles.p9}>With DocuChat, save time by swiftly extracting<br></br> data from your documents.</p>
+              <p className={styles.p9}>With DocuChat, save time by swiftly extracting data from your documents.</p>
               <Button onClick={handleClick}>Learn more</Button>
             </div>
             <div className={styles.rightcontext}>
@@ -106,7 +106,7 @@ const HomePage: React.FC<Props> = () => {
             <div className={styles.rightcontext}>
               <div className={styles.rightcontext2}>
                 <h1 className={styles.titleh1}>Productivity Boost</h1>
-                <p className={styles.p9}>Boost your productivity by focusing on what's<br></br> important and leaving the document navigation to<br></br> DocuChat.</p>
+                <p className={styles.p9}>Boost your productivity by focusing on what's important and leaving the document navigation to DocuChat.</p>
                 <Button onClick={handleClick}>Learn more</Button>
               </div>
             </div>
@@ -115,8 +115,8 @@ const HomePage: React.FC<Props> = () => {
         <div className={styles.container}>
           <div className={styles.featurescontext}>
             <div className={styles.leftcontext}>
-              <h1 className={styles.titleh1}>Future of Document<br></br>Interaction</h1>
-              <p className={styles.p9}>Experience the future of document interaction—<br></br>effortless and intuitive with DocuChat.</p>
+              <h1 className={styles.titleh1}>Future of Document<br />Interaction</h1>
+              <p className={styles.p9}>Experience the future of document interaction&mdash;effortless and intuitive with DocuChat.</p>
               <Button onClick={handleClick}>Learn more</Button>
             </div>
             <div className={styles.rightcontext}>
@@ -132,7 +132,7 @@ const HomePage: React.FC<Props> = () => {
           <div className={styles.featurescontext2}>
             <div className={styles.title2}>
               <p className={styles.p5}>More Features</p>
-              <p className={styles.p6}>Discover more ways DocuChat can enhance your <br></br>document interaction experience.</p>
+              <p className={styles.p6}>Discover more ways DocuChat can enhance your document interaction experience.</p>
             </div>
             <div className={styles.advancedfeatures}>
               <h2 className={styles.h2title}>Advanced Features</h2>
@@ -156,7 +156,7 @@ const HomePage: React.FC<Props> = () => {
         <div className={styles.container}>
           <div className={styles.securecontext}>
             <h1 className={styles.secureh1title}>Secure and Reliable</h1>
-            <p className={styles.p12}>Your data is safe with us. We prioritize security and <br></br>reliability in our services.</p>
+            <p className={styles.p12}>Your data is safe with us. We prioritize security and reliability in our services.</p>
             <Button onClick={handleClick}>Learn more</Button>
             <p className={styles.p13}>Trust in our commitment to your data's security.</p>
             <div className={styles.computerimg}>
@@ -168,7 +168,7 @@ const HomePage: React.FC<Props> = () => {
       <section className={styles.section6}>
         <div className={styles.container}>
           <div className={styles.securecontext}>
-            <h1 className={styles.readyh1title}>Ready to Experience <br></br>DocuChat?</h1>
+            <h1 className={styles.readyh1title}>Ready to Experience <br />DocuChat?</h1>
             <p className={styles.p12}>Join us and revolutionize the way you interact with documents.</p>
             <Button onClick={handleClick}>Get Started</Button>
             <p className={styles.p14}>Start your journey with DocuChat today.</p>
