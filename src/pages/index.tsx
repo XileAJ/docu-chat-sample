@@ -52,7 +52,7 @@ const HomePage: React.FC<Props> = () => {
                   <Image className={styles.SuccessIcon} src='/success.png' alt="Success" width={24} height={24} />
                   <p className={styles.p7}>VERSATILE DOCUMENT SUPPORT</p>
                 </div>
-                <p className={styles.p8}>DocuChat can navigate through PDFs, &lsquo;CSVs, Excel files, images, and more.</p>
+                <p className={styles.p8}>DocuChat can navigate through PDFs, &apos;CSVs, Excel files, images, and more.</p>
                 <div className={styles.LearnMoreArrowText}>
                   <LearnMoreButton onClick={handleClick}>Learn more &rarr;</LearnMoreButton>
                 </div>
@@ -62,7 +62,7 @@ const HomePage: React.FC<Props> = () => {
                   <Image className={styles.SuccessIcon} src='/success.png' alt="Success" width={24} height={24} />
                   <p className={styles.p7}>PRECISE ANSWERS</p>
                 </div>
-                <p className={styles.p8}>Ask a question and DocuChat scans your &lsquo;document, providing precise answers.</p>
+                <p className={styles.p8}>Ask a question and DocuChat scans your &apos;document, providing precise answers.</p>
                 <div className={styles.LearnMoreArrowText}>
                   <LearnMoreButton onClick={handleClick}>Learn more &rarr;</LearnMoreButton>
                 </div>
@@ -106,7 +106,7 @@ const HomePage: React.FC<Props> = () => {
             <div className={styles.rightcontext}>
               <div className={styles.rightcontext2}>
                 <h1 className={styles.titleh1}>Productivity Boost</h1>
-                <p className={styles.p9}>Boost your productivity by focusing on what's important and leaving the document navigation to DocuChat.</p>
+                <p className={styles.p9}>Boost your productivity by focusing on what&apos;s important and leaving the document navigation to DocuChat.</p>
                 <Button onClick={handleClick}>Learn more</Button>
               </div>
             </div>
@@ -158,7 +158,7 @@ const HomePage: React.FC<Props> = () => {
             <h1 className={styles.secureh1title}>Secure and Reliable</h1>
             <p className={styles.p12}>Your data is safe with us. We prioritize security and reliability in our services.</p>
             <Button onClick={handleClick}>Learn more</Button>
-            <p className={styles.p13}>Trust in our commitment to your data's security.</p>
+            <p className={styles.p13}>Trust in our commitment to your data&apos;s security.</p>
             <div className={styles.computerimg}>
               <Image className={styles.imgcomputer} src="/computer2.png" alt="Computer" width={600} height={600} />
             </div>
