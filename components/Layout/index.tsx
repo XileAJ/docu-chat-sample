@@ -2,6 +2,8 @@ import { ReactElement } from 'react';
 import styles from './Layout.module.css'    
 import Button from '../Buttons/header.button'
 import Button2 from '../Buttons/header.button2'
+import Image from 'next/image';
+
 
 type Props = {
     children: ReactElement;
@@ -57,11 +59,11 @@ export const Layout =({ children }: Props) => {
                             </a>
                         </div>
                         <div className={styles.fottertxt4}>
-                            <p className={styles.SocialMidia}>Follow us on social<br></br>media</p>
+                            <p className={styles.SocialMidia}>Siga-nos nas redes sociais</p>
                             <div className={styles.SocialMidiaicons}>
-                                <a href=''><img src='./facebook.svg'></img></a>
-                                <a href=''><img src='./twitter.svg'></img></a>
-                                <a href=''><img src='./linkedin.svg'></img></a>
+                                <a href='#'><Image src="/facebook.svg" alt="" width={100} height={100} /></a>
+                                <a href='#'><Image src='/twitter.svg' alt="" width={100} height={100} /></a>
+                                <a href='#'><Image src='/linkedin.svg' alt="" width={100} height={100} /></a>
                             </div>
                         </div>
                     </div>               
