@@ -1,12 +1,13 @@
+import { ReactElement } from 'react';
+import Image from 'next/image';
 import styles from '../../components/HomePage/Homepage.module.css';
 import Head from 'next/head';
-import { ReactElement } from 'react';
 import Button from '../../components/Buttons/button';
 import LearnMoreButton from '../../components/Buttons/LearnMore.Button';
 
 type Props = {
   children: ReactElement;
-}
+};
 
 const HomePage: React.FC<Props> = () => {
   const handleClick = () => {
@@ -33,7 +34,7 @@ const HomePage: React.FC<Props> = () => {
               <p className={styles.p4}>Start your journey with DocuChat today.</p>
             </div>
             <div className={styles.bannerimg}>
-              <img className={styles.rightimg} src='./robot02.png' alt="Robot" />
+              <Image className={styles.rightimg} src='/robot02.png' alt="Robot" width={600} height={600} />
             </div>
           </div>
         </div>
@@ -48,7 +49,7 @@ const HomePage: React.FC<Props> = () => {
             <div className={styles.LearnMore}>
               <div className={styles.article1}>
                 <div className={styles.titleicon}>
-                  <img className={styles.SuccessIcon} src='./success.png' alt="Success" />
+                  <Image className={styles.SuccessIcon} src='/success.png' alt="Success" width={24} height={24} />
                   <p className={styles.p7}>VERSATILE DOCUMENT SUPPORT</p>
                 </div>
                 <p className={styles.p8}>DocuChat can navigate through PDFs,<br></br> CSVs, Excel files, images, and more.</p>
@@ -58,7 +59,7 @@ const HomePage: React.FC<Props> = () => {
               </div>
               <div className={styles.article2}>
                 <div className={styles.titleicon}>
-                  <img className={styles.SuccessIcon} src='./success.png' alt="Success" />
+                  <Image className={styles.SuccessIcon} src='/success.png' alt="Success" width={24} height={24} />
                   <p className={styles.p7}>PRECISE ANSWERS</p>
                 </div>
                 <p className={styles.p8}>Ask a question and DocuChat scans your<br></br> document, providing precise answers.</p>
@@ -68,7 +69,7 @@ const HomePage: React.FC<Props> = () => {
               </div>
               <div className={styles.article3}>
                 <div className={styles.titleicon}>
-                  <img className={styles.SuccessIcon} src='./success.png' alt="Success" />
+                  <Image className={styles.SuccessIcon} src='/success.png' alt="Success" width={24} height={24} />
                   <p className={styles.p7}>USER-FRIENDLY INTERFACE</p>
                 </div>
                 <p className={styles.p8}>Interact with your documents via a user-<br></br>friendly chat interface.</p>
@@ -90,7 +91,7 @@ const HomePage: React.FC<Props> = () => {
             </div>
             <div className={styles.rightcontext}>
               <div className={styles.imgtimesaving}>
-                <img className={styles.timesavingimg} src='./time-saving.png'></img>
+                <Image className={styles.timesavingimg} src='/time-saving.png' alt="Time Saving" width={600} height={600} />
               </div>
             </div>
           </div>
@@ -99,7 +100,7 @@ const HomePage: React.FC<Props> = () => {
           <div className={styles.featurescontext}>
             <div className={styles.leftcontext}>
               <div className={styles.productivityimg}>
-                <img className={styles.ProductivityBoost} src='./productboost.png'></img>
+                <Image className={styles.ProductivityBoost} src='/productboost.png' alt="Productivity Boost" width={500} height={500} />
               </div>
             </div>
             <div className={styles.rightcontext}>
@@ -120,7 +121,7 @@ const HomePage: React.FC<Props> = () => {
             </div>
             <div className={styles.rightcontext}>
               <div className={styles.futureimgdocument}>
-                <img className={styles.DocumentFuture} src='./pdf-interaction.jpg'></img>
+                <Image className={styles.DocumentFuture} src='/pdf-interaction.jpg' alt="Document Interaction" width={500} height={500} />
               </div>
             </div>
           </div>
@@ -136,13 +137,13 @@ const HomePage: React.FC<Props> = () => {
             <div className={styles.advancedfeatures}>
               <h2 className={styles.h2title}>Advanced Features</h2>
               <div className={styles.featureslist}>
-                <img className={styles.correcticon} src='./correct.png'></img>
+                <Image className={styles.correcticon} src='/correct.png' alt="Correct" width={24} height={24} />
                 <a href=''>
                   <p className={styles.p10}>Advanced Search</p>
                 </a>
               </div>
               <div className={styles.featureslist}>
-                <img className={styles.correcticon} src='./correct.png'></img>
+                <Image className={styles.correcticon} src='/correct.png' alt="Correct" width={24} height={24} />
                 <a href=''>
                   <p className={styles.p11}>Data Visualization</p>
                 </a>
@@ -159,7 +160,7 @@ const HomePage: React.FC<Props> = () => {
             <Button onClick={handleClick}>Learn more</Button>
             <p className={styles.p13}>Trust in our commitment to your data's security.</p>
             <div className={styles.computerimg}>
-              <img className={styles.imgcomputer} src="./computer2.png"></img>
+              <Image className={styles.imgcomputer} src="/computer2.png" alt="Computer" width={600} height={600} />
             </div>
           </div>
         </div>
@@ -174,9 +175,8 @@ const HomePage: React.FC<Props> = () => {
           </div>
         </div>
       </section>
-
     </>
   );
-}
+};
 
 export default HomePage;
